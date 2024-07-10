@@ -9,3 +9,7 @@ There are a few packages that we will require to perform the commands given in t
 ```
 sudo apt install -y apt-transport-https software-properties-common wget
 ```
+ Add Grafana GPG key and Repository
+To  install Grafana on Ubuntu, you can use the APT package manager. However, before that, we need to add its repository and a GPG key used to sign the packages available through that repository. it is because the default  Ubuntu repos don’t supply the packages we are required to  install  Grafana on Linux.
+
+First, let’s add the GPG key.
