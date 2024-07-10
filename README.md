@@ -6,5 +6,6 @@ sudo apt update && sudo apt upgrade
 ```
 Step 2: Install the required extra packages
 There are a few packages that we will require to perform the commands given in this tutorial, so install them using the given syntax.
-
+```
 sudo apt install -y apt-transport-https software-properties-common wget
+```
