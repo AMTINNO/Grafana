@@ -4,7 +4,7 @@ We need to run the system update command on the  Linux system from time to time,
 ```
 sudo apt update && sudo apt upgrade
 ```
-Step 2: Install the required extra packages
+# Step 2: Install the required extra packages
 There are a few packages that we will require to perform the commands given in this tutorial, so install them using the given syntax.
 ```
 sudo apt install -y apt-transport-https software-properties-common wget
@@ -22,4 +22,17 @@ wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt
 Now, add the repository:
 ```
 echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
+```
+# Step 3: Installing Grafana on Ubuntru 22.04 or 20.04
+Once you have executed all the above-given commands your  Ubuntu system will be ready to install Grafana, however, before that rerun the system update command. It is because we have manually added a new repository in the previous step and need to refresh the APT package index cache to make it recognize the newly available packages to  install.
+```
+sudo apt update
+```
+Now, use APT to install the latest Grafana open source or community edition:
+```
+sudo apt install grafana
+```
+(optional) Those, who are interested in the latest Enterprise edition (paid), can run this command instead of the above one:
+```
+sudo apt install grafana-enterprise
 ```
