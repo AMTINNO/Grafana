@@ -47,7 +47,15 @@ Next, start the Grafana service and enable it to start automatically at system r
 ```
 sudo systemctl start grafana-server
 ```
+
 ```
 sudo systemctl enable grafana-server
 ```
 <img src="./Images/grafana02.jpg" width=100% height=100%>
+
+# Step 5 - Verify that the Grafana service is running
+Now verify that the Grafana service is active by running the command below:
+```
+sudo systemctl status grafana-server
+```
+If the Grafana service was started successfully, you should see a sign that it is active and running.
