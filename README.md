@@ -86,3 +86,5 @@ Once done, you'll have access to Grafana's dashboard.
 You'll be prompted to create a new password. Input a secure password, confirm it, and click the "Submit" button.
 
 <img src="./Images/grafana06.jpg" width=100% height=100%>
+
+
