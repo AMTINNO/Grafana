@@ -68,6 +68,7 @@ sudo ufw allow ssh
 sudo ufw allow 3000/tcp
 ```
 <img src="./Images/grafana04.jpg" width=100% height=100%>
+
 # Step 7 - Access the Grafana web interface
 To access the Grafana web interface, open a web browser and enter the IP address of your server (or hostname if applicable), followed by port 3000. The URL format should be http://your_server_IP:3000. Once loaded, you should see the Grafana login page. The default credentials are:
 
