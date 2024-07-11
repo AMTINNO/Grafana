@@ -50,3 +50,4 @@ sudo systemctl start grafana-server
 ```
 sudo systemctl enable grafana-server
 ```
+<img src="./Images/grafana02.jpg" width=100% height=100%>
