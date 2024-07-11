@@ -94,3 +94,4 @@ sudo systemctl stop grafana-server
 ```
 sudo apt remove grafana
 ```
+<img src="./Images/grafana08.jpg" width=100% height=100%>
