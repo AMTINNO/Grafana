@@ -81,9 +81,16 @@ Password: admin
 Once done, you'll have access to Grafana's dashboard.
 
 <img src="./Images/grafana06.jpg" width=100% height=100%>
-# How to uninstall Grafana
-
 
 You'll be prompted to create a new password. Input a secure password, confirm it, and click the "Submit" button.
 
 <img src="./Images/grafana07.jpg" width=100% height=100%>
+
+# How to uninstall Grafana
+If you need to uninstall Grafana for any reason, you can do so by running the following commands:
+```
+sudo systemctl stop grafana-server
+```
+```
+sudo apt remove grafana
+```
