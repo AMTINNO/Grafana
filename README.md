@@ -59,3 +59,4 @@ Now verify that the Grafana service is active by running the command below:
 sudo systemctl status grafana-server
 ```
 If the Grafana service was started successfully, you should see a sign that it is active and running.
+<img src="./Images/grafana03.jpg" width=100% height=100%>
