@@ -36,3 +36,12 @@ sudo apt install grafana
 ```
 sudo apt install grafana-enterprise
 ```
+# Step 4 - Start the Grafana service
+Once the Grafana installation process has been completed, you can verify the version using:
+```
+sudo grafana-server -v
+```
+Next, start the Grafana service and enable it to start automatically at system reboot using the following commands:
+
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
