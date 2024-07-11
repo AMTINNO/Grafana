@@ -36,7 +36,7 @@ sudo apt install grafana
 ```
 sudo apt install grafana-enterprise
 ```
-<img src="./esp32mqttdht22_github.svg" width=100% height=40%>
+<img src="./grafana01.jpg" width=100% height=100%>
 # Step 4 - Start the Grafana service
 Once the Grafana installation process has been completed, you can verify the version using:
 ```
