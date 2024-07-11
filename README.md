@@ -67,3 +67,4 @@ sudo ufw enable
 sudo ufw allow ssh
 sudo ufw allow 3000/tcp
 ```
+<img src="./Images/grafana04.jpg" width=100% height=100%>
