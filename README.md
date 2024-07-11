@@ -60,3 +60,10 @@ sudo systemctl status grafana-server
 ```
 If the Grafana service was started successfully, you should see a sign that it is active and running.
 <img src="./Images/grafana03.jpg" width=100% height=100%>
+# Step 6 - Open the port in the firewall
+Port 3000 is Grafana's default port for its web interface. To allow external access to Grafana, you must enable the firewall and open port 3000. To do this, execute the following commands in your terminal:
+```
+sudo ufw enable 
+sudo ufw allow ssh
+sudo ufw allow 3000/tcp
+```
